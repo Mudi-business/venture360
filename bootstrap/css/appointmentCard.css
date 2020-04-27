@@ -1,0 +1,262 @@
+
+#addButton {
+  height: 60px;
+  width: 60px;
+  background: linear-gradient(-45deg, rgba(115, 38, 77) 0%, rgba(2115, 38, 77) 100%);
+  color: #fafafa;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  transition: box-shadow .1s;
+  cursor: pointer;
+}
+
+#addButton:active{
+  box-shadow: -2px -2px 8px rgba(249, 236, 242), 2px 2px 8px rgba(249, 236, 242);
+}
+#addButton:focus{
+  outline:0;
+}
+
+/*TESTING FOR*/
+.inner{
+  border:2px solid #73264d;
+  height: 130px;
+  width: 200px;
+  position: absolute;
+  top:30%;
+  background-color: white;
+  border-radius: 5px;
+  left: 0;
+}
+#FAimage{
+  width: 180px;
+  height: 120px;
+}
+.outer{
+
+  min-height: 400px;
+  width: 100%;
+  position: relative;
+
+}
+.appointmentA{
+  display: none;
+
+}
+.appoint{
+  padding: 8px;
+  border-bottom: 2px solid #73264d;
+}
+.FAdataDiv{
+  border:2px solid #73264d;
+  margin-left:6em;
+  position: absolute;
+
+  height: 400px;
+  width: 500px;
+
+}
+.FeedabackAdmin{
+  height: 400px;
+  width: 78%;
+  float:right;
+  padding:7px;
+
+}
+.container-fluid{
+  padding: 30px;
+}
+.adminMission,.businessInformation{
+  width: 100%;
+  min-height: 270px;
+
+}
+.invincible{
+  border:0;
+  margin: 0;
+  padding: 0;
+}
+.headerAction{
+  padding: 5px;
+  font-weight: bold;
+  font-family: verdana;
+}
+.FAheader{
+  float: left;
+}
+.collapse{
+  margin-top:2.8em;
+}
+.btnPlus{
+  float: left;
+}
+/*drop down*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+/* body { background-color: #EFEFEF; display: flex; height: 100vh; align-items: center;  } */
+/* .card-wrap { display: table; width: 550px; margin: auto; position: relative; }
+.card { border-radius: 8px; height: 200px; position: relative; color: black; font-family: 'Ubuntu Mono', monospace; box-shadow: 3px 3px 5px 2px rgba(0,0,0,.5);
+background: #ffffff;
+background: -moz-linear-gradient(left,  #ffffff 0%, #ffffff 100%); background: -webkit-linear-gradient(left,  #004768 0%,#00325b 100%);
+ background: linear-gradient(to right,  #ffffff 0%,#f9ecf2 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='black', endColorstr='#black',GradientType=1 ); }
+.card-back { transform: rotateY(180deg); opacity: 0; position: absolute; top: 0; width: 100%; height: 100%; }
+.card-wrap:hover .card-front { transform: rotateY(180deg); opacity: 0; }
+.card-wrap:hover .card-back { transform: rotateY(0); opacity: 1; }
+.flag { width: 28%; top: 0; right: 0; height: 70px; position: absolute; border-top-right-radius: 8px; }
+.flag img { width: 100%; height: auto; }
+.label { font-size: 14px; opacity: .7; margin-bottom: 5px; }
+.value { text-transform: uppercase; font-size: 18px; }
+.number { font-size: 24px; line-height: 1; position: absolute; top: 80px; left: 15px; }
+.number span { margin-right: 10px; display: inline-block; }
+.owner-data { position: absolute; bottom: 0; left: 0; width: 100%; display: flex; padding: 15px; justify-content: space-between; box-sizing: border-box; border-radius: 0 0 8px 8px; }
+.validate { text-align: center; }
+.bar { background-color: #CCC; height: 40px; width: 100%; position: absolute; left: 0; top: 50px; }
+.secret-code { position: absolute; top: 100px; right: 15px; }
+.animate { -webkit-transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1); -moz-transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1); -o-transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1); transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1); } */
+:root {
+  --react-color: #00d8ff;
+  --vue-color: #42b883;
+  --angular-color: #b52e31;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  /* background: #19195c; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardAppintment {
+  width: 400px;
+  height: 125px;
+  background: #fff;
+  position: relative;
+  margin-top: 1em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 10;
+}
+
+.skewed {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-color: rgba(46, 139, 86, 0.616);
+
+  transform: skewX(25deg) translateX(-30px) scaleX(1);
+  transform-origin: left;
+}
+
+.card-area {
+  position: relative;
+  padding-top: 1em;
+
+}
+
+.card-area:hover .skewed {
+  transform: skewX(25deg) translateX(-30px) scaleX(1);
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: 10;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.media {
+  position: absolute;
+
+  width: 80%;
+  min-height: 45px;
+  background: #73264d;
+  left: 40%;
+  transform: translateX(-50%) translateY(-45px);
+  transition: transform 250ms ease-out;
+  display: grid;
+  place-items: center;
+  z-index: 5;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+}
+
+.item {
+  margin: 0 1rem;
+}
+
+.link {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.card-area:hover .media {
+  transform: translateX(-50%) translateY(0);
+}
+
+.content {
+  margin-top: 0.7rem;
+  margin-left: 9rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content h1,
+h6 {
+  font-weight: 100;
+}
+
+.content h1 {
+  font-size: 2.2rem;
+}
+
+.content h6 {
+  font-size: 1rem;
+}
+
+.esp {
+  font-size: 1.05rem;
+}
+
+.bg-react {
+  background: var(--react-color);
+}
+
+.bg-vue {
+  background: #73264d;
+}
+
+.bg-angular {
+  background: var(--angular-color);
+}
+
+.text-react {
+  color: var(--react-color);
+}
+
+.text-vue {
+  color: var(--vue-color);
+}
+
+.text-angular {
+  color: var(--angular-color);
+}
+
+.color-white {
+  color: #fff;
+}
+/* MATERIAL SEARCH */

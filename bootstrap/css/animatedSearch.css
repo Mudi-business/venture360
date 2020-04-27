@@ -1,0 +1,37 @@
+
+.search{
+
+	text-align: center;
+	width: 100%;
+
+}
+
+.searchbox{
+  margin-top:10px;
+	transition: border .2s linear;
+	font-size: 12px;
+	width: 50%;
+	background: #f5f8fa;
+	color: #000;
+	padding: 8px 32px 8px 12px;
+	height: 22px;
+	border: 1px solid #e6ecf0;
+	border-radius: 50px;
+	outline: none;
+}
+
+.searchbox:focus{
+	transition: border .2s linear;
+	border: 1px solid #73264d;
+}
+
+.searchbtn{
+
+	font-size: 20px;
+	color: #66757f;
+	background-color: transparent;
+	border:none;
+
+	outline: none;
+	padding: 4px;
+}

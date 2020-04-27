@@ -1,0 +1,349 @@
+.listIcon{
+  color:#73264d;
+}
+
+.userGreeting{
+  margin-top:1em;
+}
+
+.navHelper{
+
+}
+#logoPic{
+  width:150px;
+  height:60px;
+}
+#amountDueToPaid{
+  display: none;
+}
+.invincible{
+  border:0;
+  margin: 0;
+  padding: 0;
+}
+.invincible:focus{
+  outline:0;
+}
+.previewBtn{
+  background-color: #f9ecf2;
+  font-weight: bold;
+}
+.previewBtn:focus{
+  outline:0;
+}
+.logoutBtn{
+  border:0;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-size:17px;
+  font-weight:bold;
+}
+.logoutBtn:focus{
+  outline:0;
+}
+.userPaidPaymentsHeader,.welcomeUser{
+  font-weight:bold;
+  font-family: verdana;
+}
+.invoiceTag{
+  float: left;
+  margin-top:1em;
+  font-family: verdana;
+  margin-left: 5px;
+  font-weight: bold;
+  color:#73264d;
+}
+.rowUserPaiments{
+  margin-top: 1em;
+}
+li{
+  list-style-type: none;
+  padding:0;
+  margin: 0;
+  border: 0;
+}
+input{
+  background-color: #ffffff;
+
+}
+
+#uploadImage{
+    width:90%;
+    height: 200px;
+}
+
+#paidUser{
+  padding:7px;
+  border-bottom:1px solid lightgray;
+
+
+}
+.businessName{
+  font-family: "Roboto", "Tahoma", "Arial", sans-serif;
+  width: 60%;
+  font-size: 18px;
+}
+
+
+#joinedUser{
+  padding:7px;
+  border-bottom:1px solid lightgray;
+  text-align: center;
+  /* background: #f9ecf2 */
+}
+.moreC{
+  border:1px solid lightgray;
+  padding: 5px;
+  margin-left:5px;
+  width:70px;
+  border-radius: 5px;
+  background: #f5f8fa;
+}
+.choicePayment{
+
+}
+.userInfoBtn{
+  background-color: #ffffff;
+}
+.joinedUsers{
+  overflow-y: auto;
+}
+.userInfoBtn:focus{
+  outline: 0;
+}
+.panel {
+  padding: 5px;
+  display: none;
+
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50;
+  background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 3em;
+  float: left;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+}
+.halfPaidBtn{
+  background-color: #ffffff;
+
+}
+
+select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #34495e;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: #f39c12;
+}
+.btnInvoice{
+  float: left;
+  margin-left: 5px;
+  width: 150px;
+}
+
+.inputInvoice{
+  width:50%;
+  margin-top:3px;
+  padding: 4px;
+  border-radius:5px;
+  border:1px solid #73264d;
+}
+label{
+  width:100px;
+}
+.customerInfo{
+
+}
+table{
+  border: 1px solid lightgray;
+  margin-top:8px;
+
+}
+.invoiceFor{
+  font-weight: bold;
+}
+td{
+  width: 200px;
+  padding: 7px;
+}
+.notForCustomer{
+  border-top:2px solid #73264d;
+  border-bottom:2px solid #73264d;
+  width: 100%;
+}
+.invoiceData{
+
+  width: 700px;
+}
+.paymentBtn{
+  background-color: #ffffff;
+}
+.paymentBtn:focus{
+  outline: 0;
+}
+.moreP{
+  border:1px solid #5bc0de;
+  padding: 5px;
+  margin-left:5px;
+  width:28px;
+  border-radius: 5px;
+  background: #5bc0de;
+  color:white;
+}
+
+.invoiceHeader{
+
+
+}
+tr{
+  background: #ffffff;
+}
+#trHead{
+  background: #f5f8fa;
+  font-family: verdana;
+  font-weight: bold;
+}
+#invoicePic{
+  width:90px;
+  background: #ffffff;
+  height: 90px;
+  border-radius: 50%;
+  padding:9px;
+  margin-left: 5px;
+  border:5px solid #ffffff;
+  float: left;
+  box-shadow: 0 0px 9px 4px rgba(0, 0, 0, .1), 0 0 2px 2px rgba(0, 0, 0, .1);
+}
+
+.btnPayFull{
+  background-color: white;
+}
+
+.payMoney{
+  border: 1px solid #2c3e50;
+  padding:7px;
+  font-size:35px;
+  width:100%;
+  font-weight: bold;
+  font-family: verdana;
+  padding-bottom: 5px;
+  color:white;
+  border-radius:7px;
+  background:#2c3e50;
+}
+
+.payMoneyInputCheck{
+}
+.moreP2{
+  border:1px solid #73264d;
+  padding: 5px;
+  margin-left:5px;
+  width:70px;
+  border-radius: 5px;
+  background: #73264d;
+  color:white;
+}
+.moreDone{
+  border:1px solid #22BB33;
+  padding: 5px;
+  margin-left:5px;
+  width:28px;
+  border-radius: 5px;
+  background: #22BB33;
+  color:white;
+}
+.moreBtn{
+  box-shadow: 0 0px 9px 4px rgba(0, 0, 0, .1), 0 0 2px 2px rgba(0, 0, 0, .1);
+  width:200px;
+  padding:5px;
+  margin-top:5px;
+}
+.divWelcomeHolder{
+  margin-top:1em;
+  text-align: center;
+}
+
+#uploadPic{
+  display:none;
+}
+
+
+.inputPost{
+  width:100%;
+  margin-top:3px;
+  padding: 4px;
+  border-radius:5px;
+  border:1px solid #73264d;
+}
+.main-modal{
+  margin-top: 5em;
+
+  width: 100%;
+}
+
+.readonly{
+  background-color:beige;
+}
+.inputPayment{
+  width:80%;
+  margin-top:3px;
+  padding: 4px;
+  border-radius:5px;
+  border:1px solid #73264d;
+}
+.adminPosts{
+  min-height:450px;
+  width:400px;
+  margin-top:1em;
+  background: #f9ecf2;
+  box-shadow: 0 0px 9px 4px rgba(0, 0, 0, .1), 0 0 2px 2px rgba(0, 0, 0, .1);
+  z-index: 1000;
+}
+.postTittle{
+  padding:5px;
+}
+.postBody{
+  height:220px;
+  width: 100%;
+  padding:5px;
+
+}

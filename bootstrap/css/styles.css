@@ -1,0 +1,46 @@
+body {
+  box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+#main-navbar {
+  font: 1.15em;
+  background: #ffffff;
+  text-align: center;
+
+}
+.moreInvincible{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+  font-weight: bold;
+  color:black;
+  cursor: pointer;
+
+}
+.moreInvincible:hover{
+  font-weight: normal;
+}
+#main-navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+#main-navbar li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+#main-navbar li a {
+  text-decoration: none;
+  /* color: #EDA51A; */
+  color:black;
+}
+
+#main-navbar li a:hover {
+  padding-bottom: 3px;
+  /* color: #222; */
+  color:#602040;
+}
